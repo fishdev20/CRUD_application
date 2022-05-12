@@ -1,0 +1,31 @@
+{
+  "name": "crud_application",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fishdev20/CRUD_application.git"
+  },
+  "author": "Minh Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fishdev20/CRUD_application/issues"
+  },
+  "homepage": "https://github.com/fishdev20/CRUD_application#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parse": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.3.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {},
+  "description": ""
+}
