@@ -26,6 +26,7 @@ app.use(bodyparser.urlencoded({ extended : true}))
 
 
 app.set("view engine", "ejs")
+app.set('views', __dirname + '/views');
 
 
 
