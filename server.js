@@ -13,7 +13,7 @@ const app = express();
 // })
 
 dotenv.config( { path : 'config.env'} )
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 'https://users-management-application.herokuapp.com/'
 
 
 app.use(morgan('tiny'));
